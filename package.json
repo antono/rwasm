@@ -1,0 +1,17 @@
+{
+  "name": "rwasm",
+  "version": "1.0.0",
+  "description": "WASM experiments",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "copy-webpack-plugin": "^4.5.1",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}

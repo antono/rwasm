@@ -1,0 +1,11 @@
+[package]
+name = "rwasm"
+version = "0.1.0"
+authors = ["Anton Vasiljev <antono.vasiljev@gmail.com>"]
+build = "build.rs"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.1"
